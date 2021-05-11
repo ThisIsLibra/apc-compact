@@ -10,7 +10,7 @@ public class CfrVersionInfo {
     private CfrVersionInfo() {}
 
     /** CFR version */
-    public static final String VERSION = "0.151-SNAPSHOT";
+    public static final String VERSION = "0.152-SNAPSHOT";
 
     /** Are we a snapshot? */
     public static final boolean SNAPSHOT = CfrVersionInfo.VERSION.contains("SNAPSHOT");
@@ -18,7 +18,7 @@ public class CfrVersionInfo {
      * Abbreviated Git commit hash of the commit representing this state
      * of the project.
      */
-    public static final String GIT_COMMIT_ABBREVIATED = "fda6889";
+    public static final String GIT_COMMIT_ABBREVIATED = "bc8d9a2";
     /**
      * Whether the working tree contained not yet committed changes when
      * the project was built.
